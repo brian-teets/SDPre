@@ -36,8 +36,8 @@ public class Objective4Lab2 {
     System.out.println("The sum of " + num1 + " + " + num2 + " + " + num3 + " = " + numSum);
 
     // TODO print the three doubles and their sum.
-    double numDub = (dub1 + dub2 + dub3);
-    System.out.println("The sum of " + dub1 + " + " + dub2 + " + " + dub3 + " = " + numDub);
+    double dubSum = (dub1 + dub2 + dub3);
+    System.out.println("The sum of " + dub1 + " + " + dub2 + " + " + dub3 + " = " + dubSum);
 
     // close the keyboard Scanner
     keyboard.close();
