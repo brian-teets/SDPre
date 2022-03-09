@@ -1,5 +1,5 @@
 /*
-/ Unlike while loops, or loops always execute code a determined or pre-determined number of times.
+/ Unlike while loops, for loops always execute code a determined / pre-determined number of times.
 
 / Syntax of for loops:
 
