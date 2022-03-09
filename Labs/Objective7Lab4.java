@@ -5,7 +5,7 @@ public class Objective7Lab4 {
 
     while (count < 20) {  // loop a total of 20 times
       count = count + 1;  // increment the count
-      currentSum = currentSum + count;  // update current sum by adding count to sum with each iteration
+      currentSum = currentSum + count;  // update current sum by adding count to currentSum with each iteration
     }
     System.out.println(currentSum);  // based on the Expected Output, only print the sum at the end of the loop
   }
