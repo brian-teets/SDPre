@@ -42,7 +42,7 @@ public class Objective6Lab1 {
       default:
         System.out.println("That is not a valid month.");
         break;
-        // break is not required for default if default case IF placed at the end 
+        // break is not required for default IF default case is placed at the end 
     }
   }
 }
