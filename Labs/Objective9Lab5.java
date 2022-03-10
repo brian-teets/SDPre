@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Objective9Lab5 {
   public static void main(String[] args) {
-    Scanner kb = new Scanner (System.in);
+    Scanner kb = new Scanner(System.in);
 		double num1, num2;
 		boolean keepGoing = true;
 		int choice;
@@ -21,28 +21,35 @@ public class Objective9Lab5 {
 
       switch (choice) {
         case 1:
+          double sum = findSum(num1, num2);
           findSum(num1, num2);
           System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
           break;
         case 2:
+          double average = findAverage(num1, num2);
           findAverage(num1, num2);
           System.out.println("The average of " + num1 + " and " + num2 + " is: " + average);
           break;
         case 3:
+          double tax = calcTax(num1, num2);
           calcTax(num1, num2);
           System.out.println("The amount in tax to be collected from a purchase of " + num1 + " and " + num2 + " is: " + tax);
           break;
         case 4:
+          System.out.println();
           System.out.println("You've chosen to exit the program.");
           System.out.println("Goodbye...");
           System.out.println();
+          keepGoing = false;
           break;
+
         default:
           System.out.println("Invalid entry.  Please try again. ");
           break;   // break not required for default IF at end of cases, but placing for continuity and practice
       }
-      kb.close();
+
     }
+    kb.close();
 
     // end of main method
   }
